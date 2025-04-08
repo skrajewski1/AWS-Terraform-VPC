@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket         = "week10-sck-terraform"
-    key            = "week10/terraform.tfstate"
+    bucket         = "sck-terraform"
+    key            = "terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
     dynamodb_table = "state-log"
