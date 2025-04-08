@@ -16,7 +16,6 @@ This project deploys a scalable and secure AWS infrastructure using Terraform, f
 
 ## Architecture
 ![Architecture Diagram](https://via.placeholder.com/600x300.png?text=Architecture+Diagram)  
-*Note: Replace this with an actual diagram created in Draw.io or similar, showing VPC, subnets, ALB, and EC2.*
 
 - **Public Subnets**: Host the ALB and NAT Gateways for outbound traffic.
 - **Private Subnets**: Host EC2 instances, isolated from direct internet access.
